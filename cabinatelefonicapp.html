@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+body {
+  font-family: 'Arial';
+  color: black;
+  font-size: 0.9em;
+}
+
+section {
+  max-width: 450x;
+}
+
+details {
+  background: green;
+  color: white;
+  padding: 15px;
+  margin-bottom: 2px;
+  border-radius: 25px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+
+</style>
+</head>
+<body style="font-family: 'Arial';
+  color: white;
+  font-size: 0.9em;
+  background-color:#20487c;">
+
+<h1 style="">Cabina Telefonica Online</h2>
+<p></p>
+
+<img src="https://chiamagratis.altervista.org/wp-content/uploads/2020/05/Minuti-Illimitati.jpg" alt="Snow" style="width:100%">
+
+<img src="https://chiamagratis.altervista.org/wp-content/uploads/2020/05/Connettiti.jpg" alt="Snow" style="width:100%">
+
+<h2>Numeri</h2>
+
+<section style="max-width: 450x;">
+
+<details style="background: green;
+  color: white;
+  padding: 15px;
+  margin-bottom: 2px;
+  border-radius: 25px;">
+<summary style="cursor: pointer;
+  font-weight: 900;
+  font-size: 1.2em;">
+Disponibili
+</summary>
+<div class="row">
+  <div class="column">
+  <a title="Cabina Telefonica" href="https://davidelaferla.github.io/cto/davyphone.html" target="_blank" rel="noopener">
+  
+    <img src="https://chiamagratis.altervista.org/wp-content/uploads/2020/05/Roma-CTO.png" alt="Snow" style="width:100%">
+	</a>
+  </div>
+</details>
+<details style="background: red;
+  color: white;
+  padding: 15px;
+  margin-bottom: 2px;
+  border-radius: 25px;">
+<summary style="cursor: pointer;
+  font-weight: 900;
+  font-size: 1.2em;">
+In Costruzione
+</summary>
+<div class="row">
+  <div class="column">
+    <img src="https://chiamagratis.altervista.org/wp-content/uploads/2020/05/Milano-CTO-1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://chiamagratis.altervista.org/wp-content/uploads/2020/05/Napoli-CTO.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://chiamagratis.altervista.org/wp-content/uploads/2020/05/Palermo-CTO.jpg" alt="Mountains" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://chiamagratis.altervista.org/wp-content/uploads/2020/05/Torino-CTO.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</details>
+</section>
+
+
+
+</body>
+</html>
