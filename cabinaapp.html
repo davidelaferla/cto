@@ -1,10 +1,49 @@
+<!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
 </head>
 <body>
-<p></p>
-<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cabina Telefonica Online</p>
-<p><a title="0662284183" href="https://davidelaferla.github.io/cto/davyphone.html" target="_blank" rel="noopener"><img src="https://i.pinimg.com/originals/3f/e1/08/3fe108d6664450398674f4bce59e28bd.jpg" alt="" width="625" height="468" /></a><img src="https://i.pinimg.com/originals/3f/e1/08/3fe108d6664450398674f4bce59e28bd.jpg" alt="" width="624" height="468" /></p>
+
+<h2>Responsive "Side-by-Side" Images</h2>
+<p>How to create side-by-side images with the CSS float property. On screens that are 500px wide or less, the images will stack on top of each other instead of next to each other:</p>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="row">
+  <div class="column">
+    <img src="https://i.pinimg.com/originals/3f/e1/08/3fe108d6664450398674f4bce59e28bd.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/originals/3f/e1/08/3fe108d6664450398674f4bce59e28bd.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.pinimg.com/originals/3f/e1/08/3fe108d6664450398674f4bce59e28bd.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
 </body>
 </html>
