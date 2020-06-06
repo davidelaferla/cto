@@ -6,11 +6,11 @@
 */
 
 webphone_api.parameters = {
-    //serveraddress: 'serveraddress',  //!!!! MUST BE SET to your SIP server IP address, domain name or SRV DNS record (also set the :port if that is not the default 5060). Example: sip.myserveraddress.com:5070
+    //serveraddress: 'voip.vivavox.it',  //!!!! MUST BE SET to your SIP server IP address, domain name or SRV DNS record (also set the :port if that is not the default 5060). Example: sip.myserveraddress.com:5070
 	//proxyaddress: '', //Optional SIP proxy address. Specify only if you must use an outbound SIP proxy. 
 	//transport: -1, //Optional SIP transport protocol. -1: auto detect, 0: UDP, 1: TCP, 2: TLS (usually doesn't have to be set)
-    //username: 'username',  //Optional SIP account username (usually entered by the user, but for some special use cases or quick tests you might preset it here)
-    //password: 'password',  //Optional SIP account password (usually entered by the user, but for some special use cases or quick tests you might preset it here)
+    //username: '0662284183',  //Optional SIP account username (usually entered by the user, but for some special use cases or quick tests you might preset it here)
+    //password: '_-3NgH190mQd',  //Optional SIP account password (usually entered by the user, but for some special use cases or quick tests you might preset it here)
     //Other parameters are optional. See the documentation for the complete list of available settings ("Parameters" chapter)
     loglevel: 5 //5 means detailed logs. It might be set it to 1 in production. The logs can be viewed in the browser console.
     //Note: comma is NOT needed after the last parameter
